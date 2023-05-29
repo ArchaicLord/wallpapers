@@ -16,6 +16,6 @@ case $LINUX_DISTRO in
     Fedora)
 	echo "Fedora detected"
 	echo "Linking wallpapers from $(pwd)/wallpapers to /usr/share/backgrounds/"
-	sudo ln -s $(pwd)/wallpapers/ /usr/share/backgrounds/
+	sudo ln -s $(pwd)/wallpapers/backgrounds ~/Pictures/
 	;;    
 esac
